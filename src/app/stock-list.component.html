@@ -1,5 +1,3 @@
-<div *ngFor="let stock of stocks">
-  <div class="row">
-    <stock-info [stock]="stock"></stock-info>
-  </div>
+<div class="row">
+  <stock-info *ngFor="let stock of stocks" [stock]="stock"></stock-info>
 </div>
